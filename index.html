@@ -2,75 +2,30 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <nav>
-    <h2>株式会社TECH</h2>
-    <ul>
-      <li><a href="#">ホーム</a></li>
-      <li><a href="#">企業情報</a></li>
-      <li><a href="#">会社概要</a></li>
-      <li><a href="#">よくある質問</a></li>
-      <li><a href="#">お問い合わせ</a></li>
-    </ul>
-  </nav>
-  <img src="img/mv.png" alt="mv">
-  <p><em>最新のテクノロジーで社会課題を解決</em></p>
+  <title>practoce css</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <section>
-    <h2>会社概要</h2>
-    <table>
-      <tr>
-        <td align="center">会社名</td>
-        <td>株式会社TECH</td>
-      </tr>
-      <tr>
-        <td align="center">代表者</td>
-        <td>山田　太郎</td>
-      </tr>
-      <tr>
-        <td align="center">所在地</td>
-        <td>東京都渋谷区神宮前</td>
-      </tr>
-      <tr>
-        <td align="center">設立</td>
-        <td>2019/07/17</td>
-      </tr>
-      <tr>
-        <td align="center">従業員数</td>
-        <td>100人</td>
-      </tr>
-      <tr>
-        <td align="center">資本金</td>
-        <td>1000万円</td>
-      </tr>
-    </table>
-  </section>
-  <section>
-    <h2>お問い合わせ</h2>
-    <form action="detail.html"method="get">
-      <label for="text">会社名</label>
-      <input type="text">
-    </form>
-    <form action="detail.html"method="get">
-      <label for="name">お名前</label>
-      <input type="text" name="name" id="name">
-    </form>
-    <form action="detail.html"method="get">
-      <label for="email">メールアドレス</label>
-      <input type="email">
-    </form>
-    <form action="detail.html"method="get">
-      <labe for="text">お問い合わせ内容</label>
-      <textarea name="textarea"  cols="50" rows="8"></textarea>
-    </form>
-    <form action="detail.html"method="get">
-      <button>お申し込み</button>
-    </form>
-  </section>
+  <div>
+    <h2 class="company">COACHTECH</h2>
+    <div class="cat">
+      <div class="cat_item">ホーム</div>
+      <div class="cat_item">事業内容</div>
+      <div class="cat_item">採用情報</div>
+      <div class="cat_item">お問い合わせ</div>
+    </div>
+  </div>
+
+
+
+  <div class=top>
+    <h1 class="top_ttl">毎日を笑顔に</h1>
+    <div class="top_img">
+      <img src="./img/firstview.jpeg" alt="">
+    </div>
+    <div class=top_line></div>
+  </div>
 </body>
-<footer>
-  <small>&copy;2020 TECH.inc</small>
-</footer>
 </html>
