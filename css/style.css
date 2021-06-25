@@ -1,7 +1,12 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
 .company {
   color: #00008b;
   font-size: 24px;
-  margin: 10px 20px;
 }
 .cat {
   display: flex;
@@ -10,6 +15,7 @@
   color: #00008b;
   font-size: 14px;
   font-weight: 700;
+  margin-top: 5px;
 }
 .cat_item {
   width: 90px;
@@ -38,4 +44,5 @@
   background-color: #00008b;
   width: 75%;
   height: 40%;
+  z-index: -1;
 }
